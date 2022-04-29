@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T06:07:27.583Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.4.6" etag="fm1vSQ6Fnxc23QpS9ie6" type="github"><diagram id="UCuH-frnUL_MKW3Y5lvR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-29T09:40:52.833Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="oQR14Rh0ZyrrEqJw5dyZ" version="17.4.6" type="github">
+  <diagram id="UCuH-frnUL_MKW3Y5lvR" name="Page-1">
+    <mxGraphModel dx="2062" dy="1158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7ruuh3cZyursFEHFS2u--28" value="Your LAMP server" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#EA6B66;verticalAlign=bottom;fontStyle=1;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="30" y="430" width="630" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--1" value="Your Shopify Panel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--26" value="transfers order data to interface" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ruuh3cZyursFEHFS2u--2" target="7ruuh3cZyursFEHFS2u--19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--29" value="fetchs products from Shopify" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#330000;" edge="1" parent="1" source="7ruuh3cZyursFEHFS2u--2" target="7ruuh3cZyursFEHFS2u--18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--2" value="Shopify Official API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--3" value="Your Wordpress Site" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="490" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--4" value="ShopWP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="500" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ruuh3cZyursFEHFS2u--4" target="7ruuh3cZyursFEHFS2u--2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="430" as="sourcePoint" />
+            <mxPoint x="450" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--6" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="230" y="530" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--7" value="ActiveCampaign" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="130" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--30" value="fetchs lists from ActiveCampaign" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontColor=#330000;" edge="1" parent="1" source="7ruuh3cZyursFEHFS2u--8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="868" y="380" />
+              <mxPoint x="500" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--8" value="ActiveCampaign Official API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="240" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--18" value="Your PHP bases Interface" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontColor=#A680B8;strokeColor=#A680B8;" vertex="1" parent="1">
+          <mxGeometry x="360" y="490" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=37.5;entryPerimeter=0;" edge="1" parent="1" source="7ruuh3cZyursFEHFS2u--19" target="7ruuh3cZyursFEHFS2u--20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--19" value="Worker 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="460" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=0;exitDx=0;exitDy=4.35;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ruuh3cZyursFEHFS2u--20" target="7ruuh3cZyursFEHFS2u--22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--20" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="580" y="530" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--27" value="transfers customer data after data processing to AC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ruuh3cZyursFEHFS2u--22" target="7ruuh3cZyursFEHFS2u--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--22" value="Worker 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="460" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--31" value="Wroker 1: Transfers order details including customer data and purchased&amp;nbsp; items from Shopify to the Interface DB" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="750" width="610" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--32" value="Wroker 2: Transfers data from Inteface DB to ActiveCampaign via its API" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="780" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--33" value="Interface: Its a panel to make the relationship between products and AC lists. It gets product list from Shopify and Campaign list from AC." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="740" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7ruuh3cZyursFEHFS2u--34" value="In order to decrease the infra cost we will develop the interface exactly on the Wordpress stack so you can setup the application on the same server." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="690" width="800" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
